@@ -39,10 +39,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Navigate to "Resource Groups" and click "Create."
    - Provide a name for your Resource Group and select a region.
    - Click "Review + Create," then "Create."
-  
-<p>
-<img src="https://i.imgur.com/nkfDzdG.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+
+![image](https://github.com/user-attachments/assets/7e4ba073-6b52-4371-8734-b9e865388810)
 
 3. **Create a Windows 10 Virtual Machine**:
    - Navigate to "Virtual Machines" and click "Create."
@@ -53,46 +51,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
      - Head to the Networking section, then create a new virtual network titled "Lab2-vnet"
    - Complete the setup and deploy the VM.
   
-<p>
-<img src="https://i.imgur.com/ln5shD0.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/af13d94f-7f8b-4a47-9967-b2a937bc4ec2)
 
-<p>
-<img src="https://i.imgur.com/dBrcujc.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/83cfba9b-0744-4db2-a1cf-01965176e5b3)
 
-<p>
-<img src="https://i.imgur.com/MCv4Q1g.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/26e67eb2-04c8-4e51-81c0-fdb325103403)
 
-<p>
-<img src="https://i.imgur.com/iU9lo7m.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/c5eddae2-e6a7-4a38-979e-444f62858afb)
 
 4. **Create a Linux (Ubuntu) Virtual Machine**:
    - Navigate to "Virtual Machines" and click "Create."
    - Select the same Resource Group and Virtual Network used for the Windows 10 VM.
    - Configure the Virtual Machine:
-     - OS: Ubuntu Server 22.04
+     - OS: Ubuntu Server 24.04
      - Authentication: Username/Password.
    - Ensure both VMs are in the same Virtual Network and Subnet as the Windows 10 VM.
    - Complete the setup and deploy the VM.
 
-<p>
-<img src="https://i.imgur.com/uWwnh01.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/8a13b057-80aa-4441-a3c5-a70f74f83a6b)
 
-<p>
-<img src="https://i.imgur.com/6iHplkL.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/c7280b08-22a0-470c-a0a2-666da6792585)
 
-<p>
-<img src="https://i.imgur.com/K2kS6ye.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/b054649d-5d22-4839-ad22-b4edc104b2c7)
 
-<p>
-<img src="https://i.imgur.com/HhOHkjo.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/b89d5ba6-0012-4383-b144-3807e937cc4e)
 
 ---
 
@@ -108,14 +90,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Observe the ping requests and replies in Wireshark.
 6. From the Windows 10 VM, ping a public website (e.g., `www.google.com`) and observe the ICMP traffic in Wireshark.
 
-<p>
-<img src="https://i.imgur.com/iN88a8x.png" height="80%" width="80%" alt="Step 2 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/c2e43130-979d-4064-8f99-7f038250ba53)
 
-<p>
-<img src="https://i.imgur.com/jcsAXgl.png" height="80%" width="80%" alt="Step 2 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/b97f8b56-ff13-4e23-b828-008b9b3950a2)
 
+![image](https://github.com/user-attachments/assets/9cad2ab3-ac3e-4912-9799-71bf6264e5ba)
 ---
 
 ## Part 3: Configure a Firewall (Network Security Group)
@@ -131,9 +110,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 6. Observe the ICMP traffic in Wireshark and the command line Ping activity (should resume).
 7. Stop the ping activity.
 
-<p>
-<img src="https://i.imgur.com/X9VBE8M.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
-</p>
+![image](https://github.com/user-attachments/assets/e806e62a-b46e-47ac-a356-3058aee39f17)
 
 <p>
 <img src="https://i.imgur.com/xOvIUta.png" height="80%" width="80%" alt="Step 1 Lab 2"/>
